@@ -18,7 +18,6 @@ Configured a Kali Linux VM and installed Elastic Agent to forward system and pro
 ## Event Generation
 Simulated security activity by running Nmap scans (nmap -T4 -A -v localhost) to generate observable security events such as port discovery and service enumeration.
 
-
 ## Log Investigation
 Used Kibana Discover to query logs and analyze events using filters like:process.name:nmap
 
